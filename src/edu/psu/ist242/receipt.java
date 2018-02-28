@@ -13,7 +13,6 @@ Last Date Changed:
  
   public int orderID;
 
- 
  public getPrintReceipt(){
     return orderID;
   }
