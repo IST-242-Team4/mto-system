@@ -11,14 +11,14 @@ Last Date Changed:
 package edu.psu.IST242;
 
 
-public class cashier {
+public class Cashier {
 
     public String markOrder() {
-    
+    //NEED WORK HERE
     }
 
     public String editOrder() {
-       
+       //NEED WORK HERE
     }
     
     }//close
