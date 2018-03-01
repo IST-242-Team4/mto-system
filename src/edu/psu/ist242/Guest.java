@@ -9,9 +9,9 @@ Last Date Changed:
  
  package edu.psu.IST242;
  
- public class guest {
+ public class Guest {
  
  
- 
+ //Need work here
  
  }//close
