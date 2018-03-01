@@ -2,25 +2,11 @@
 Project: Team4 Project
 Purpose Details: ordering kiosk
 Course: IST 242
-Author: Ruijian Li
+Author: Ruijian Li, Charles McKee
 Date Developed: 2-27-2018
-Last Date Changed: 
+Last Date Changed: 2-28-2018
  */
  
  package edu.psu.IST242;
  
- public class OrderStatus {
-
-    String [] orderStatus = new String []{"new", "paid", "cancelled", "inProcess", "completed", "shipped"};
-
-
-    public void setStatus(String orderStatus) {
-        this.orderStatus = orderStatus;
-    }
-
-    public int getStatus() {
-        return orderStatus;
-    }
-    
-    
-}//Close
+public enum OrderStatus { new, paid, canceled, in_progress, completed, shipped }
