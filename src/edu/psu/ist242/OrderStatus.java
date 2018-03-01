@@ -9,7 +9,7 @@ Last Date Changed:
  
  package edu.psu.IST242;
  
- public class orderStatus {
+ public class OrderStatus {
 
     String [] orderStatus = new String []{"new", "paid", "cancelled", "inProcess", "completed", "shipped"};
 
