@@ -7,7 +7,7 @@ Date Developed: 2-27-2018
 Last Date Changed: 
  */
  
- package edu.psu.IST242;
+ package edu.psu.ist242;
  
  public class Guest {
  
