@@ -9,7 +9,7 @@ Last Date Changed:
  
  package edu.psu.IST242;
  
- public class receipt {
+ public class Receipt {
  
   public int orderID;
 
