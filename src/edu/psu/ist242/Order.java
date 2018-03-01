@@ -1,45 +1,51 @@
 package edu.psu.ist242;
 
-/* 
-  created by irainaL on 2/25/2018
-*/
+//not completed
+public class Order{
 
-public class order{
-  
   public int id;
-  public items = lineItems();
-  public orderStatus;
-  public payment = payment();
-  
-  public order(int id){
-    this.id = id;
+  public String item;
+  public String orderStatus;
+  public float payment;
+
+  public Order(int id, String item, String orderStatus, float payment){
+    this.id = 0;
+    this.item = "";
+    this.orderStatus = "";
+    this.payment = 0f;
   }
-    
-  public int getOrderID(id){
+
+
+  public int getOrderID(){
     return id;
   }
-  
+
   public void setOrderID(int id){
     this.id = id;
   }
-  
-  public getOrderStatus(order, id){
-    return order,id;
+
+
+  public String getOrderStatus(){
+    return (orderStatus+id);
   }
-  
+
   public void setOrderStatus(String order, int id){
     this.orderStatus = orderStatus;
     this.id = id;
   }
-  
-  public createOrder(){
+}
+
+//These methods should be in main
+/*
+  Basket basket = new Basket(int basket_id, String date);
+  public String createOrder(){
     basket.createBasket();
   }
-  
+
   public String viewOrder(){
     return basket.viewBasket();
   }
-  
+
   public editOrder(){
     System.out.println("What would you like to do 'add' or 'delete'");
     String op = next.Line();
@@ -50,27 +56,28 @@ public class order{
     case "delete":
     basket.deleteItem();
   }
-  
+
   public cancelOrder(){
     basket.deleteItem();
     System.out.println("Your order has been canceled");
   }
-  
+
   public addLineItem(String item){
     lineItem.setItem(item);
   }
-  
+
   public String viewLineItem(id){
     return lineItem.getItem();
   }
-  
+
   public editLineItem(id){
     lineItem.getItem();
   }
-  
+
   public delLineItem(id){
     lineItem.getItem();
     lineItem.setItem();
   }
-    
+
 }//end of class
+*/
