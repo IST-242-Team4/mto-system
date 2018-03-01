@@ -7,6 +7,6 @@ Date Developed: 2-27-2018
 Last Date Changed: 2-28-2018
  */
  
- package edu.psu.IST242;
+ package edu.psu.ist242;
  
 public enum OrderStatus { new, paid, canceled, in_progress, completed, shipped }
