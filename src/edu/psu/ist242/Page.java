@@ -10,7 +10,7 @@ Last Date Changed:
  package edu.psu.IST242;
  
  
-  public class page {
+  public class Page {
   
   public int pageID;
   public String name;

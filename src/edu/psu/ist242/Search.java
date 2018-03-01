@@ -10,7 +10,7 @@ Last Date Changed:
  package edu.psu.IST242;
  
  
-  public class search {
+  public class Search {
   
   }
   

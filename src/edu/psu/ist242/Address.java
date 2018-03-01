@@ -7,12 +7,12 @@ Author: Ruijian Li
 Date Developed: 2-27-2018
 Last Date Changed: 
  */
+
+package edu.psu.ist242;
+//import java.mail.Address;
  
- package edu.psu.IST242;
- import javax.mail.Address;
  
- 
- public class address {
+ public class Address {
  
  
     private Address street;
