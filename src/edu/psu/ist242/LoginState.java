@@ -10,7 +10,7 @@ Last Date Changed:
  package edu.psu.IST242;
 
  
- public class loginState {
+ public class LoginState {
  
  String [] loginState = new String []{"authenticated", "unauthenticated", "disabled"};
 
