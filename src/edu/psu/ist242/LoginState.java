@@ -7,7 +7,7 @@ Date Developed: 2-27-2018
 Last Date Changed: 2-28-2018
  */
  
- package edu.psu.IST242;
+ package edu.psu.ist242;
 
  
 public enum LoginState { authenticated, unauthenticated, disabled }
