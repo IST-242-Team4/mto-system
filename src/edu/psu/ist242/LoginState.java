@@ -2,25 +2,12 @@
 Project: Team4 Project
 Purpose Details: ordering kiosk
 Course: IST 242
-Author: Ruijian Li
+Author: Ruijian Li, Charles McKee
 Date Developed: 2-27-2018
-Last Date Changed: 
+Last Date Changed: 2-28-2018
  */
  
  package edu.psu.IST242;
 
  
- public class LoginState {
- 
- String [] loginState = new String []{"authenticated", "unauthenticated", "disabled"};
-
-
-    public void setLoginState(String loginState) {
-        this.loginState = loginState;
-    }
-
-    public int getLoginState() {
-        return loginState;
-    }
- 
- }//close
+public enum LoginState { authenticated, unauthenticated, disabled }
