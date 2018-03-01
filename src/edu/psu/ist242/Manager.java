@@ -14,12 +14,15 @@ import java.lang.Object;
 
 public class Manager {
 
-    public String viewOrder() {
-        //NEED WORK HERE
+    public String viewOrder;
+    public String editOrder;
+    
+    public String toViewOrder(String viewOrder) {
+        return viewOrder; //NEED WORK HERE
     }
 
-    public String editOrder() {
-       //NEED WORK HERE
+    public String toEditOrder(String editOrder) {
+      return editOrder; //NEED WORK HERE
     }
 
     
