@@ -3,16 +3,9 @@ package edu.psu.ist242;
 /* 
   created by irainaL on 2/25/2018
 */
-
-public class item{
-  
-  public String name;
-  public float price;
-  public String description;
-  public String groups[];
   
   import java.util.Arrays;
-public class Item{
+  public class Item{
 
   private String name;
   private float price;
