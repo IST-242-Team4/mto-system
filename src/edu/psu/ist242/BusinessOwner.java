@@ -11,10 +11,10 @@ Last Date Changed:
 package edu.psu.IST242;
 
 
-public class businessOwner {
+public class BusinessOwner {
 
     public String organizeItem() {
-        
+        //NEED WORK HERE
     }
 
 }
