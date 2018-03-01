@@ -10,13 +10,11 @@ Last Date Changed: 2-24-2018
 
 package edu.psu.IST242;
 import java.util.*;
-import java.lang.Object;
-import javax.mail.Address; //MUST HAVE JAVAMAIL API IN JAR FILES
 
 public class Employee {
 
     private int id;
-    private Address shipAddress; //IF THIS ISNT WORKING YOU DIDNT PUT JAVAMAIL API IN JAR FILES
+    private String shipAddress; //IF THIS ISNT WORKING YOU DIDNT PUT JAVAMAIL API IN JAR FILES
     private String phone;
     private String email;
     private String title;
@@ -30,11 +28,11 @@ public class Employee {
         return id;
     }
 
-    public Address getShipAddress() {
+    public String getShipAddress() {
         return shipAddress;
     }
 
-    public void setShipAddress(Address shipAddress) {
+    public void setShipAddress(String shipAddress) {
         this.shipAddress = shipAddress;
     }
 
