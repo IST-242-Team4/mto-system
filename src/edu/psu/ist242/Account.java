@@ -10,13 +10,12 @@ Last Date Changed: 2-24-2018
 
 package edu.psu.IST242;
 import java.util.*;
-import java.lang.Object;
-import javax.mail.Address; //MUST HAVE JAVAMAIL API IN JAR FILES
+
 
 public class Account {
 
     private int id;
-    private Address billingAddress; //IF THIS ISNT WORKING YOU DIDNT PUT JAVAMAIL API IN JAR FILES
+    private String billingAddress; //IF THIS ISNT WORKING YOU DIDNT PUT JAVAMAIL API IN JAR FILES
     private Boolean isClosed;
     private Date opened;
     private Date closed;
@@ -30,11 +29,11 @@ public class Account {
         this.id = id;
     }
 
-    public Address getBillingAddress() {
+    public String getBillingAddress() {
         return billingAddress;
     }
 
-    public void setBillingAddress(Address billingAddress) {
+    public void setBillingAddress(String billingAddress) {
         this.billingAddress = billingAddress;
     }
 
