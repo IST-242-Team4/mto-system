@@ -8,7 +8,7 @@ Last Date Changed:
  */
 
 
-package edu.psu.IST242;
+package edu.psu.ist242;
 import java.util.*;
 import java.lang.Object;
 
