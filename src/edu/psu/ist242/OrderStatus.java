@@ -9,4 +9,4 @@ Last Date Changed: 2-28-2018
  
  package edu.psu.ist242;
  
-public enum OrderStatus { new, paid, canceled, in_progress, completed, shipped }
+public enum OrderStatus { _new, paid, canceled, in_progress, completed, shipped }
