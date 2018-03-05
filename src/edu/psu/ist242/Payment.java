@@ -7,7 +7,7 @@ Date Developed: 2-24-2018
 Last Date Changed: 2-24-2018
  */
 
-package edu.psu.IST242;
+package edu.psu.ist242;
 import java.util.*;
 
 public class Payment {
