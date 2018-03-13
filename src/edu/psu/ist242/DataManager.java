@@ -1,8 +1,14 @@
 package edu.psu.ist242;
 
 /**
- * Created by ljackson on 2/25/18.
- */
+Project: DataManager
+Purpose Details: To handle the requests from the controller to the model
+Author: Luke Jackson
+Date Developed: 03.13.18
+Last Date Changed: 03.13.18
+Rev:1.0.1
+*/
+
 public class DataManager {
 
     private int id;
