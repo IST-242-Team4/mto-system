@@ -12,8 +12,14 @@ package edu.psu.ist242;
 
 public class Worker {
 
-    public String fillOrder() {
-     //Need work here.
+
+    public String makeOrder;
+  
+    public String toMakeOrder(String makeOrder) {
+        return makeOrder; //NEED WORK HERE
     }
+
+ 
+
 
    }//Close
