@@ -13,6 +13,9 @@ package edu.psu.ist242;
 
 public class Cashier {
   
+    public String markOrder;
+    public String editOrder;
+  
     public String toMarkOrder(String markOrder) {
         return markOrder; //NEED WORK HERE
     }
