@@ -12,13 +12,14 @@ package edu.psu.ist242;
 
 
 public class Cashier {
-
-    public String markOrder() {
-    //NEED WORK HERE
+  
+    public String toMarkOrder(String markOrder) {
+        return markOrder; //NEED WORK HERE
     }
 
-    public String editOrder() {
-       //NEED WORK HERE
+    public String toEditOrder(String editOrder) {
+      return editOrder; //NEED WORK HERE
     }
+    
     
     }//close
