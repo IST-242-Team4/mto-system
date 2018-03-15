@@ -14,7 +14,7 @@ public class Login {
 
     private String loginID;
     private String password;
-    private LoginState state;
+    private String state;
 
     public String getLoginID() {
         return loginID;
@@ -32,11 +32,11 @@ public class Login {
         this.password = password;
     }
 
-    public LoginState getState() {
+    public String getState() {
         return state;
     }
 
-    public void setState(LoginState state) {
+    public void setState(String state) {
         this.state = state;
     }
 }
