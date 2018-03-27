@@ -17,7 +17,7 @@ package edu.psu.ist242;
   
   import java.util.Arrays;
   public class Item{
-
+/*declared variable*/
   private String name;
   private float price;
   private String description;
