@@ -26,7 +26,7 @@ public class Basket{
   private ArrayList<String> itemsInBasket;
 
   /*Constructer*/
-  public Basket(int basketID, String created){
+  public Basket(){
     this.basketID = 0;
   }
 

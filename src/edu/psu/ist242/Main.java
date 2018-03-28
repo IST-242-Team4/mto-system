@@ -3,7 +3,12 @@ package edu.psu.ist242;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
-        System.out.println("Hello World!");
+
+        Basket basket = new Basket();
+        Item item = new Item();
+        LineItem lineItem = new LineItem();
+        Order order = new Order();
+
+
     }
 }

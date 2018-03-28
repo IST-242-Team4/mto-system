@@ -27,7 +27,7 @@ package edu.psu.ist242;
   private String[] groups;
 
   /*Constructer methods*/
-  public Item(String name, float price, String description, String[] groups){
+  public Item(){
     this.name = "";
     this.price = 0f;
     this.description = "";

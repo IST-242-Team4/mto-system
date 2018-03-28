@@ -24,7 +24,7 @@ public class LineItem{
   private int qty;
 
   /*constructer*/
-  public LineItem(int id, String item, int qty){
+  public LineItem(){
     this.id = 0;
     this.item = "";
     this.qty = 0;
