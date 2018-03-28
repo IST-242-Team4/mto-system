@@ -8,16 +8,19 @@ Last Date Changed:3/13/2018
 Rev:
 */
 
+/*
+ *<h1>Item.java</h1>
+ *This Class sets up the Item information
+ *<p>
+ *@author Iraina Lambe
+ */
 
 package edu.psu.ist242;
 
-/* 
-  created by irainaL on 2/25/2018
-*/
-  
   import java.util.Arrays;
   public class Item{
-/*declared variable*/
+
+    /** Declared Variables */
   private String name;
   private float price;
   private String description;

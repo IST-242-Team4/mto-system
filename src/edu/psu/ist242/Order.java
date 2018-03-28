@@ -8,22 +8,26 @@ Last Date Changed:3/13/2018
 Rev:
 */
 
+/*
+ *<h1>Order.java</h1>
+ *This Class sets up the Order information
+ *<p>
+ *@author Iraina Lambe
+ */
+
 package edu.psu.ist242;
 
 public class Order{
 
+  /** Declared Variables */
   public int id;
   public String item;
-  public String orderStatus;
+  private String orderStatus;
   public float payment;
 
   public Order(int id, String item, String orderStatus, float payment){
-    this.id = 0;
-    this.item = "";
-    this.orderStatus = "";
-    this.payment = 0f;
+  
   }
-
 
   public int getOrderID(){
     return id;
@@ -35,11 +39,11 @@ public class Order{
 
 
   public String getOrderStatus(){
-    return (orderStatus+id);
+    return (orderStatus);
   }
 
   public void setOrderStatus(String order, int id){
-    this.orderStatus = orderStatus;
+    this.orderStatus = order;
     this.id = id;
   }
 }

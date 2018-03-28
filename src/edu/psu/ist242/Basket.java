@@ -8,11 +8,18 @@ Last Date Changed:3/13/2018
 Rev:
 */
 
+/*
+ *<h1>Basket.java</h1>
+ *This Class sets up the Basket information
+ *<p>
+ *@author Iraina Lambe
+ */
 
 package edu.psu.ist242;
 
 public class Basket{
 
+  /** Declared Variables */
   private int basketID;
   private String created;
 

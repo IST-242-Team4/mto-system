@@ -8,13 +8,20 @@ Last Date Changed:3/13/2018
 Rev:
 */
 
+/*
+ *<h1>LineItem.java</h1>
+ *This Class sets up the LineItem information
+ *<p>
+ *@author Iraina Lambe
+ */
 package edu.psu.ist242;
 
 public class LineItem{
 
+  /** Declared Variables */
   public int id;
   public String item;
-  public int qty;
+  private int qty;
 
   public LineItem(int id, String item, int qty){
     this.id = 0;
