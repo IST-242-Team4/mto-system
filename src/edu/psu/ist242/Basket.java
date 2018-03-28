@@ -17,32 +17,46 @@ Rev:
 
 package edu.psu.ist242;
 
+import java.util.ArrayList;
+
 public class Basket{
 
   /** Declared Variables */
   private int basketID;
-  private String created;
+  private ArrayList<String> itemsInBasket;
 
   /*Constructer*/
   public Basket(int basketID, String created){
     this.basketID = 0;
-    this.created = null;
   }
 
   /*Accessor methods*/
   public int getBasketID(){
     return basketID;
   }
-  public String getCreated(){
-      return created;
+
+  public ArrayList<String> getItemsInBasket() {
+    return itemsInBasket;
   }
 
   /*Mutator methods*/
   public void setBasketID(int basketID){
     this.basketID = basketID;
   }
-  public void setCreated(String created){
-    this.created = created;
+
+  public void setOrderedItems(ArrayList<String> itemsInBasket) {
+    this.itemsInBasket = itemsInBasket;
+  }
+
+  public void createBasket(){
+    itemsInBasket =  new ArrayList<>(3);
+    System.out.println("Your basket is ready to use!");
+  }
+
+  public void viewBasket(){
+    for (String i:itemsInBasket) {
+      System.out.println(i);
+    }
   }
 
 }

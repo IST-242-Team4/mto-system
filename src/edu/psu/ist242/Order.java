@@ -50,7 +50,6 @@ public class Order{
   }
 }
 
-//These methods should be in main
 /*
   Basket basket = new Basket(int basket_id, String date);
   public String createOrder(){
