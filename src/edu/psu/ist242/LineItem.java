@@ -23,32 +23,31 @@ public class LineItem{
   public String item;
   private int qty;
 
+  /*constructer*/
   public LineItem(int id, String item, int qty){
     this.id = 0;
     this.item = "";
     this.qty = 0;
   }
 
+  /*accessor methods*/
   public int getId(){
     return id;
   }
-
-  public void setId(int id){
-    this.id = id;
-  }
-
   public String getItem(){
     return item;
   }
-
-  public void setItem(String item){
-    this.item = item;
-  }
-
-   public int getQty(){
+  public int getQty(){
     return qty;
   }
 
+  /*mutator methods*/
+  public void setId(int id){
+    this.id = id;
+  }
+  public void setItem(String item){
+    this.item = item;
+  }
   public void setQty(int qty){
     this.qty = qty;
   }
