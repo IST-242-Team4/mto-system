@@ -13,7 +13,7 @@ Last Date Changed: 3-27-2018
  *@author Charles McKee
  */
 
-package edu.psu.IST242;
+package edu.psu.ist242;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.*;
