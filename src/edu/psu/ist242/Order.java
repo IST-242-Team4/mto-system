@@ -25,23 +25,25 @@ public class Order{
   private String orderStatus;
   public float payment;
 
+  /*constructer method*/
   public Order(int id, String item, String orderStatus, float payment){
 
   }
 
+  /*accessor methods*/
   public int getOrderID(){
     return id;
   }
-
-  public void setOrderID(int id){
-    this.id = id;
-  }
-
-
   public String getOrderStatus(){
     return (orderStatus);
   }
 
+
+  
+  /*mutator methods*/
+  public void setOrderID(int id){
+    this.id = id;
+  }
   public void setOrderStatus(String order, int id){
     this.orderStatus = order;
     this.id = id;
