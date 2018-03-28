@@ -23,23 +23,24 @@ public class Basket{
   private int basketID;
   private String created;
 
+  /*Constructer*/
   public Basket(int basketID, String created){
     this.basketID = 0;
     this.created = null;
   }
 
+  /*Accessor methods*/
   public int getBasketID(){
     return basketID;
   }
+  public String getCreated(){
+      return created;
+  }
 
+  /*Mutator methods*/
   public void setBasketID(int basketID){
     this.basketID = basketID;
   }
-
-  public String getCreated(){
-    return created;
-  }
-
   public void setCreated(String created){
     this.created = created;
   }

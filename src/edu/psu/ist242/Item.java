@@ -26,6 +26,7 @@ package edu.psu.ist242;
   private String description;
   private String[] groups;
 
+  /*COnstructer methods*/
   public Item(String name, float price, String description, String[] groups){
     this.name = "";
     this.price = 0f;
@@ -33,34 +34,29 @@ package edu.psu.ist242;
     this.groups = Arrays.copyOf(groups, groups.length);
   }
 
+  /*Accessor methods*/
   public String getName(){
     return name;
   }
-
-  public void setName(String name){
-    this.name = name;
-  }
-
   public float getPrice(){
     return price;
   }
-
-  public void setPrice(float price){
-    this.price = price;
-  }
-
   public String getDescription(){
     return description;
   }
-
-  public void setDescription(String description){
-    this.description = description;
-  }
-
   public String[] getGroups(){
     return groups;
   }
-
+  /*Mutator methods*/
+  public void setName(String name){
+    this.name = name;
+  }
+  public void setPrice(float price){
+    this.price = price;
+  }
+  public void setDescription(String description){
+    this.description = description;
+  }
   public void setGroups(String[] groups){
     this.groups = groups;
   }
