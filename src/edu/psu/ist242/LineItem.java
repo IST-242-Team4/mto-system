@@ -8,7 +8,7 @@ Last Date Changed:3/13/2018
 Rev:
 */
 
-/*
+/**
  *<h1>LineItem.java</h1>
  *This Class sets up the LineItem information
  *<p>

@@ -8,7 +8,7 @@ Last Date Changed:3/13/2018
 Rev:
 */
 
-/*
+/**
  *<h1>Order.java</h1>
  *This Class sets up the Order information
  *<p>
@@ -51,7 +51,7 @@ public class Order{
 }
 
 /*
-  Basket basket = new Basket(int basket_id, String date);
+Basket basket = new Basket(int basket_id, String date);
   public String createOrder(){
     basket.createBasket();
   }
