@@ -26,7 +26,7 @@ public class Order{
   public float payment;
 
   /*constructer method*/
-  public Order(int id, String item, String orderStatus, float payment){
+  public Order(){
 
   }
 
