@@ -12,6 +12,11 @@ public class Main {
 
         Scanner scnr = new Scanner(System.in);
 
+        System.out.println("Welcome to our MTO System");
+
+        basket.createBasket();
+
+
 
     }
 }
