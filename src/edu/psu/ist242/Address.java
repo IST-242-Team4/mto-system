@@ -9,49 +9,41 @@ Last Date Changed:
  */
 
 package edu.psu.ist242;
-//import java.mail.Address;
  
  
- public class Address {
+public class Address {
  
- 
-    private Address street;
+ /* Declared Variables */
+    private String street;
     private String city;
     private String state;
     private String zip;
  
  
- 
-    public Address getStreet() {
+ /*Accessor methods*/
+    public String getStreet() {
         return street;
     }
-
-    public void setStreet(Address street) {
-        this.street = street;
-    }
-    
-    
-        public String getCity() {
+    public String getCity() {
         return city;
     }
-
+    public String getState() {
+        return state;
+    }
+    public String getZip() {
+        return zip;
+    }
+  
+  /*Mutator Methods*/
+    public void setStreet(String street) {
+        this.street = street;
+    }
     public void setCity(String city) {
         this.city = city;
     }
- 
- 
-      public String getState() {
-        return state;
-    }
-
     public void setState(String state) {
         this.state = state;
     }
-    
-      public String getZip() {
-        return zip;
-    }
-
     public void setZip(String zip) {
         this.zip = zip;
     }
