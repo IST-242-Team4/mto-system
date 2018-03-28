@@ -19,18 +19,18 @@ package edu.psu.ist242;
 
 import java.util.ArrayList;
 
-public class Basket{
+public class Basket extends Item{
 
   /** Declared Variables */
   private int basketID;
   private ArrayList<String> itemsInBasket;
 
-  /*Constructer*/
+  /** Constructer*/
   public Basket(){
     this.basketID = 0;
   }
 
-  /*Accessor methods*/
+  /** Accessor methods*/
   public int getBasketID(){
     return basketID;
   }
@@ -39,7 +39,7 @@ public class Basket{
     return itemsInBasket;
   }
 
-  /*Mutator methods*/
+  /** Mutator methods*/
   public void setBasketID(int basketID){
     this.basketID = basketID;
   }
@@ -53,10 +53,12 @@ public class Basket{
     System.out.println("Your basket is ready to use!");
   }
 
-  public void viewBasket(){
+  public String viewBasket(){
     for (String i:itemsInBasket) {
       System.out.println(i);
     }
+      return null;
   }
+
 
 }

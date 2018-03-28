@@ -16,21 +16,21 @@ Rev:
  */
 package edu.psu.ist242;
 
-public class LineItem{
+public class LineItem extends Item{
 
   /** Declared Variables */
   public int id;
   public String item;
   private int qty;
 
-  /*constructer*/
+  /** constructer*/
   public LineItem(){
     this.id = 0;
     this.item = "";
     this.qty = 0;
   }
 
-  /*accessor methods*/
+  /** accessor methods*/
   public int getId(){
     return id;
   }
@@ -41,7 +41,7 @@ public class LineItem{
     return qty;
   }
 
-  /*mutator methods*/
+  /** mutator methods*/
   public void setId(int id){
     this.id = id;
   }

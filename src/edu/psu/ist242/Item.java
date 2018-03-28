@@ -26,7 +26,7 @@ package edu.psu.ist242;
   private String description;
   private String[] groups;
 
-  /*Constructer methods*/
+  /** Constructer methods*/
   public Item(){
     this.name = "";
     this.price = 0f;
@@ -34,7 +34,7 @@ package edu.psu.ist242;
     this.groups = Arrays.copyOf(groups, groups.length);
   }
 
-  /*Accessor methods*/
+  /** Accessor methods*/
   public String getName(){
     return name;
   }
@@ -47,7 +47,7 @@ package edu.psu.ist242;
   public String[] getGroups(){
     return groups;
   }
-  /*Mutator methods*/
+  /** Mutator methods*/
   public void setName(String name){
     this.name = name;
   }
