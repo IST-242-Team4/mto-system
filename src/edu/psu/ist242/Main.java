@@ -1,4 +1,5 @@
 package edu.psu.ist242;
+import java.util.Scanner;
 
 public class Main {
 
@@ -8,6 +9,8 @@ public class Main {
         Item item = new Item();
         LineItem lineItem = new LineItem();
         Order order = new Order();
+
+        Scanner scnr = new Scanner(System.in);
 
 
     }
