@@ -12,33 +12,29 @@ Last Date Changed:
  
   public class Page {
   
+  /* Declared Variables */
   public int pageID;
   public String name;
   public int permission;
  
-  
+  /*Accessor methods*/
   public int getpageID(){
     return pageID;
   }
-  
-  public void setPageID(int pageID){
-    this.pageID = pageID;
-  }
-  
-  
   public String getName(){
     return name;
   }
-  
-  public void setName(String name){
-    this.name = name;
-  }
-  
-  
   public int getPermission(){
     return permission;
   }
   
+  /*Mutator Methods*/  
+  public void setPageID(int pageID){
+    this.pageID = pageID;
+  }
+  public void setName(String name){
+    this.name = name;
+  }
   public void setPermission(int permission){
     this.permission = permission;
   }
