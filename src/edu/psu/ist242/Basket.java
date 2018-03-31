@@ -18,6 +18,8 @@ Rev:
 package edu.psu.ist242;
 
 import java.util.ArrayList;
+import java.lang.String;
+
 
 public class Basket extends Item{
 
@@ -44,12 +46,13 @@ public class Basket extends Item{
     this.basketID = basketID;
   }
 
-  public void setOrderedItems(ArrayList<String> itemsInBasket) {
+  public void setOrderedItems(ArrayList itemsInBasket) {
     this.itemsInBasket = itemsInBasket;
   }
 
+  //Other methods
   public void createBasket(){
-    itemsInBasket =  new ArrayList<>(3);
+    itemsInBasket =  new ArrayList<>(2);
     System.out.println("Your basket is ready to use!");
   }
 
