@@ -19,24 +19,18 @@ package edu.psu.ist242;
 
 public class Order extends Basket {
 
-  /**
-   * Declared Variables
-   */
+  /**Declared Variables */
   public int id;
   public String item;
   private String orderStatus;
   public float payment;
 
-  /**
-   * constructer method
-   */
+  /**constructer method*/
   public Order() {
 
   }
 
-  /**
-   * accessor methods
-   */
+  /** accessor methods */
   public int getOrderID() {
     return id;
   }
@@ -46,9 +40,7 @@ public class Order extends Basket {
   }
 
 
-  /**
-   * mutator methods
-   */
+  /**mutator methods */
   public void setOrderID(int id) {
     this.id = id;
   }

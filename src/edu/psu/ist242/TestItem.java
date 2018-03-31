@@ -1,3 +1,13 @@
+/*
+Project: MTO System
+Purpose Details: Creating an test for item class
+Course: IST 242
+Author: Iraina Lambe
+Date Developed: 3/25/2018
+Last Date Changed:3/31/2018
+Rev:
+*/
+
 package edu.psu.ist242;
 
 public class TestItem {
