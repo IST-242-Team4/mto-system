@@ -21,12 +21,14 @@ public class Order extends Basket {
 
   /**Declared Variables */
   public int id;
-  public String item;
   private String orderStatus;
-  public float payment;
+  public String payment;
 
   /**constructer method*/
   public Order() {
+    this.id = 0;
+    this.orderStatus = "Not Started";
+    this.payment = "Not Complete";
 
   }
 
@@ -36,22 +38,26 @@ public class Order extends Basket {
   }
 
   public String getOrderStatus() {
-    return (orderStatus);
+    return orderStatus;
   }
 
+
+  public String getPayment() {
+    return payment;
+  }
 
   /**mutator methods */
   public void setOrderID(int id) {
     this.id = id;
   }
 
-  public void setOrderStatus(String order, int id) {
+  public void setOrderStatus(String order) {
     this.orderStatus = order;
     this.id = id;
   }
 
 
-
-
-
+  public void setPayment(String payment) {
+    this.payment = payment;
+  }
 }
