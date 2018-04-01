@@ -16,7 +16,7 @@ Rev:
  */
 package edu.psu.ist242;
 
-public class LineItem extends Item{
+public class LineItem{
 
   /** Declared Variables */
   public int id;

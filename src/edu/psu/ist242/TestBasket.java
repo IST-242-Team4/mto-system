@@ -13,40 +13,38 @@ import java.util.ArrayList;
 
 public class TestBasket {
 
-    public class TestItem {
-        public void testLineItem() {
-            Basket basket = new Basket();
-            ArrayList<String>  array = new ArrayList<>();
-            array.add("Coke");
-            array.add("Chicken Sandwich");
-            basket.setBasketID(2);
-            basket.setOrderedItems(array);
-            if (basket.getBasketID()== 2) {
-                if (basket.getItemsInBasket().equals(array)) {
-                        System.out.println("Test on Item: Passed");
-                } else {
-                    System.out.println("Test on get/set Items in Basket: Failed");
-                }
+    public static void testBasket() {
+        Basket basket = new Basket();
+        ArrayList<String>  array = new ArrayList<>();
+        array.add("Coke");
+        array.add("Chicken Sandwich");
+        basket.setBasketID(2);
+        basket.setOrderedItems(array);
+        if (basket.getBasketID()== 2) {
+            if (basket.getItemsInBasket().equals(array)) {
+                System.out.println("Test on Item: Passed");
             } else {
-                System.out.println("Test on get/set BasketId: Failed");
+                System.out.println("Test on get/set Items in Basket: Failed");
             }
+        } else {
+            System.out.println("Test on get/set BasketId: Failed");
+        }
 
-            basket.createBasket();
-            if (basket.getItemsInBasket().size() == 2){
-                System.out.println("Test Passed: Basket was created");
-            }
-            else
-                System.out.println("Test Failed: Basket was not created");
+        basket.createBasket();
+        if (basket.getItemsInBasket().size() == 2){
+            System.out.println("Test Passed: Basket was created");
+        }
+        else
+            System.out.println("Test Failed: Basket was not created");
 
-            basket.viewBasket();
-            if(basket.getItemsInBasket().size() > 0){
-                System.out.println("Test Passed: Basket has items to display.");
-            }
-            else
-                System.out.println("Test Failed: Basket does not have any items and will not display anything.");
+        basket.viewBasket();
+        if(basket.getItemsInBasket().size() > 0){
+            System.out.println("Test Passed: Basket has items to display.");
+        }
+        else
+            System.out.println("Test Failed: Basket does not have any items and will not display anything.");
 
         }
     }
-
-}
+    
 

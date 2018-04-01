@@ -17,7 +17,7 @@ Rev:
 
 package edu.psu.ist242;
 
-public class Order extends Basket {
+public class Order{
 
   /**Declared Variables */
   public int id;
