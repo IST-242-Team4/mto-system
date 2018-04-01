@@ -25,7 +25,7 @@ public class Basket extends Item{
 
   /** Declared Variables */
   private int basketID;
-  private ArrayList itemsInBasket;
+  private ArrayList<String> itemsInBasket;
 
   /** Constructer*/
   public Basket(){
