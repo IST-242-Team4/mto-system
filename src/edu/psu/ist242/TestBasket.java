@@ -31,8 +31,20 @@ public class TestBasket {
                 System.out.println("Test on get/set BasketId: Failed");
             }
 
+            basket.createBasket();
+            if (basket.getItemsInBasket().size() == 2){
+                System.out.println("Test Passed: Basket was created");
+            }
+            else
+                System.out.println("Test Failed: Basket was not created");
 
-
+            basket.viewBasket();
+            if(basket.getItemsInBasket().size() > 0){
+                System.out.println("Test Passed: Basket has items to display.");
+            }
+            else
+                System.out.println("Test Failed: Basket does not have any items and will not display anything.");
+            
         }
     }
 
