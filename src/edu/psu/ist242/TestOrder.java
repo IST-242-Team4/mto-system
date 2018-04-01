@@ -10,8 +10,7 @@ Rev:
 package edu.psu.ist242;
 
 public class TestOrder {
-    public class TestItem {
-        public void testLineItem() {
+        public void testOrder() {
             Order ord = new Order();
             String[] array = {"Chicken Sandwich", "Coke"};
             ord.setOrderID(1);
@@ -32,7 +31,6 @@ public class TestOrder {
             }
         }
     }
-}
 
 
 

@@ -10,9 +10,7 @@ Rev:
 package edu.psu.ist242;
 
 public class TestLineItem {
-
-    public class TestItem {
-        public void testLineItem() {
+        public static void testLineItem() {
             LineItem lineItem = new LineItem();
             lineItem.setId(413);
             lineItem.setItem("Sandwich");
@@ -32,6 +30,4 @@ public class TestLineItem {
             }
         }
     }
-
-}
 

@@ -11,7 +11,7 @@ package edu.psu.ist242;
 
 import java.util.ArrayList;
 
-public class TestBasket extends Basket{
+public class TestBasket{
 
     public static void testBasket() {
         Basket basket = new Basket();
