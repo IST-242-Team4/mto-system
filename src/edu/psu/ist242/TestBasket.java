@@ -44,7 +44,7 @@ public class TestBasket extends Basket{
         else
             System.out.println("Test Failed: Basket does not have any items and will not display anything.");
 
-        }
     }
+}
 
 
