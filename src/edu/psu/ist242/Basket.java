@@ -21,7 +21,7 @@ import java.util.ArrayList;
 import java.lang.String;
 
 
-public class Basket extends Item{
+public class Basket{
 
   /** Declared Variables */
   private int basketID;
