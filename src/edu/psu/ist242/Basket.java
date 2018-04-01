@@ -46,7 +46,7 @@ public class Basket{
     this.basketID = basketID;
   }
 
-  public void setOrderedItems(ArrayList itemsInBasket) {
+  public void setOrderedItems(ArrayList<String> itemsInBasket) {
     this.itemsInBasket = itemsInBasket;
   }
 
