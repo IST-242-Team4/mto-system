@@ -56,8 +56,9 @@ public class Order extends Basket {
     this.id = id;
   }
 
-
   public void setPayment(String payment) {
     this.payment = payment;
   }
 }
+
+

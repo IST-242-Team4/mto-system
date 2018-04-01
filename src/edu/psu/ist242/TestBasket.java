@@ -4,7 +4,7 @@ Purpose Details: Creating an test for basket
 Course: IST 242
 Author: Iraina Lambe
 Date Developed: 3/25/2018
-Last Date Changed:3/31/2018
+Last Date Changed:4/1/2018
 Rev:
 */
 package edu.psu.ist242;
@@ -44,7 +44,7 @@ public class TestBasket {
             }
             else
                 System.out.println("Test Failed: Basket does not have any items and will not display anything.");
-            
+
         }
     }
 

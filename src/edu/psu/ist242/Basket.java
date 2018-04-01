@@ -4,7 +4,7 @@ Purpose Details: creating a basket class
 Course: IST 242
 Author: Iraina Lambe
 Date Developed: 2/25/2018
-Last Date Changed:3/13/2018
+Last Date Changed:4/1/2018
 Rev:
 */
 
@@ -25,7 +25,7 @@ public class Basket extends Item{
 
   /** Declared Variables */
   private int basketID;
-  private ArrayList<String> itemsInBasket;
+  private ArrayList itemsInBasket;
 
   /** Constructer*/
   public Basket(){
@@ -57,7 +57,7 @@ public class Basket extends Item{
   }
 
   public String viewBasket(){
-    for (String i:itemsInBasket) {
+    for (Object i:itemsInBasket) {
       System.out.println(i);
     }
       return null;

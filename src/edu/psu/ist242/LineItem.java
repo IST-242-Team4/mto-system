@@ -4,7 +4,7 @@ Purpose Details: Creating a LineItem class
 Course: IST 242
 Author: Iraina Lambe
 Date Developed: 2/25/2018
-Last Date Changed:3/13/2018
+Last Date Changed:4/1/2018
 Rev:
 */
 
