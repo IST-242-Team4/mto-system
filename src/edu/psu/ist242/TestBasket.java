@@ -10,9 +10,8 @@ Rev:
 package edu.psu.ist242;
 
 import java.util.ArrayList;
-import junit.framework.TestCase;
 
-public class TestBasket extends TestCase {
+public class TestBasket extends Basket{
 
     public static void testBasket() {
         Basket basket = new Basket();
