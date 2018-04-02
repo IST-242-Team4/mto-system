@@ -14,15 +14,15 @@ Last Date Changed:
   
   /* Declared Variables */
   public int pageID;
-  public String name;
+  public String pageName;
   public int permission;
  
   /*Accessor methods*/
-  public int getpageID(){
+  public int getPageID(){
     return pageID;
   }
-  public String getName(){
-    return name;
+  public String getPageName(){
+    return pageName;
   }
   public int getPermission(){
     return permission;
@@ -32,8 +32,8 @@ Last Date Changed:
   public void setPageID(int pageID){
     this.pageID = pageID;
   }
-  public void setName(String name){
-    this.name = name;
+  public void setPageName(String pageName){
+    this.pageName = pageName;
   }
   public void setPermission(int permission){
     this.permission = permission;
