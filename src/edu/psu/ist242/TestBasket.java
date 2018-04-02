@@ -11,7 +11,7 @@ package edu.psu.ist242;
 
 import java.util.ArrayList;
 
-public class TestBasket {
+public class TestBasket{
 
     public static void testBasket() {
         Basket basket = new Basket();
@@ -44,7 +44,7 @@ public class TestBasket {
         else
             System.out.println("Test Failed: Basket does not have any items and will not display anything.");
 
-        }
     }
-    
+}
+
 

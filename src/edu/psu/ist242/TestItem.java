@@ -10,7 +10,7 @@ Rev:
 
 package edu.psu.ist242;
 
-public class TestItem {
+public class TestItem{
     public static void testItem() {
         Item item = new Item();
         String[] array = {"Sandwiches", "Drinks"};
