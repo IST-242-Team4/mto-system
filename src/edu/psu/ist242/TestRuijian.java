@@ -1,6 +1,6 @@
 /*
 Project: Team4 Project
-Purpose Details: This Class tests Address, Page, Receipt classes
+Purpose Details: This Class tests Address, Page, Receipt and Search classes
 Course: IST 242
 Author: Ruijian Li
 Date Developed: 2-27-2018
@@ -71,3 +71,25 @@ Last Date Changed:
         }
         else {System.out.println("Test on get/set OrderID: Failed");}
     }
+
+
+
+
+   public static void testSearch() {
+        Search ser = new Search();
+        ser.setCustomerInput("Sausage");
+        ser.setSearching("Match");
+        ser.setPermission(1);
+
+        if(ser.getCustomerInput().equals("Sausage")){
+            if(ser.getSearching().equals("Match")){
+                if(ser.getPermission == 1){
+                   System.out.println("Test on Search: Passed");
+                }
+                else {System.out.println("Test on get/set Permission: Failed");}
+            }
+            else {System.out.println("Test on get/set Searching: Failed");}
+        }
+        else {System.out.println("Test on get/set CustomerInput: Failed");}
+    }
+
