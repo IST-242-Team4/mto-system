@@ -8,7 +8,7 @@ Last Date Changed: 3-27-2018
  */
 /**
  *<h1> TestMcKee Class</h1>
- *This Class tests Account, Employee, Customer, Login, and Payment classes
+ *This Class tests Customer
  *<p>
  *@author Charles McKee
  */
