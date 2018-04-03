@@ -20,6 +20,7 @@ import java.util.*;
 public class TestAccount {
     public static void main(String[] args) throws Exception{
         testaccount();
+    }
     public static void testaccount() {
         SimpleDateFormat dt = new SimpleDateFormat("yyyy-MM-dd");
         Account test = new Account();
