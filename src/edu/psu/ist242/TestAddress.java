@@ -1,13 +1,14 @@
 
 /*
 Project: Team4 Project
-Purpose Details: This Class tests Address, Page, Receipt and Search classes
+Purpose Details: This Class tests Address classes
 Course: IST 242
 Author: Ruijian Li
 Date Developed: 2-27-2018
 Last Date Changed: 
  */
-   
+  
+  
    public static void testAddress() {
         Address addr = new Address();
         addr.setStreet("1019 Sigel St");
