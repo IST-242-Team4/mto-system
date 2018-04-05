@@ -18,7 +18,7 @@ public int permission;
 
 
 /*Accessor methods*/
-public int getPrintReceipt(){
+public int getOrderID(){
 return orderID;
 }
 public int getEPrintReceipt(){
@@ -30,7 +30,7 @@ return permission;
   
  
 /*Mutator Methods*/
-public void setPrintReceipt(int orderID){
+public void setOrderID(int orderID){
 this.orderID = orderID;
 }
 public void setEPrintReceipt(int ePrintReceipt){
