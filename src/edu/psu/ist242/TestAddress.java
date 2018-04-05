@@ -14,12 +14,12 @@ Last Date Changed:
         addr.setStreet("1019 Sigel St");
         addr.setCity("Philadelphia");
         addr.setState("PA");
-        addr.setZip(19148);
+        addr.setZip("19148");
     
         if(addr.getStreet().equals("1019 Sigel St")){
             if(addr.getCity().equals("Philadelphia")){
                 if(addr.getState().equals("PA")){
-                    if(addr.getZip() == 19148){
+                    if(addr.getZip().equals("19148")){
                        System.out.println("Test on Address: Passed");
                     }
                     else {System.out.println("Test on get/set Zip: Failed");}
