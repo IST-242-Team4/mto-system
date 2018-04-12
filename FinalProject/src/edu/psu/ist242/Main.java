@@ -82,11 +82,11 @@ public class Main {
                     choice = scan.nextInt();
                     switch (choice) {
                         case 1: {
-                            CreateOrder();
+                            CreateOrder(user);
                             break;
                         }
                         case 2: {
-                            CancelOrder();
+                            CancelOrder(user);
                             break;
                         }
                         case 3:
@@ -307,7 +307,7 @@ public class Main {
     }
 
     /** Creating methods called from views in the program */
-    public static void CreateOrder() {
+    public static void CreateOrder(String user) {
         DecimalFormat df = new DecimalFormat("###.##");
         Scanner scan = new Scanner(System.in);
         Menu menu = new Menu(menuList);
@@ -344,6 +344,7 @@ public class Main {
             }
         }
         order.setStatus(Status.open);
+        order.setCust(user);
         orderlist.add(order);
         System.out.println("Your order:");
         for(Item item : ordereditems) {
@@ -352,9 +353,18 @@ public class Main {
         float totalprice = ((subprice*.06f)+subprice);
         System.out.println("Total price: $" + df.format(totalprice));
     }
-    public static void CancelOrder() {
+    public static void CancelOrder(String cust) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter which Order you would like to Cancel: ");
+        for(Order order: orderlist) {
+            if(order.getCust().equals(cust)){
+                System.out.print(order.getOrderId());
+                for(Item items: order.getItems()) {
+                    System.out.print(" "+ items.getName());
+                }
+            }
+        }
+        System.out.println();
         int orderclose = scan.nextInt();
         for(Order order: orderlist){
             if(order.getOrderId()==orderclose){
@@ -368,8 +378,9 @@ public class Main {
             if(order.getStatus()== Status.open){
                 System.out.print(order.getOrderId());
                 for(Item items: order.getItems()) {
-                    System.out.print(" "+ items.getName());
+                    System.out.print(" "+ items.getName()+", ");
                 }
+                System.out.print("  Ordered by:" + order.getCust());
                 System.out.println();
             }
         }

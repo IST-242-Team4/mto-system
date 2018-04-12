@@ -20,9 +20,14 @@ public class Order {
     /**Declaring variables*/
     private int orderId;
     private List<Item> items;
+    private String cust;
     private Status status;
 
+
     /**Accessor Methods*/
+    public String getCust() {
+        return cust;
+    }
     public Status getStatus() {
         return status;
     }
@@ -33,6 +38,9 @@ public class Order {
         return items;
     }
     /**Mutator Methods*/
+    public void setCust(String cust) {
+        this.cust = cust;
+    }
     public void setStatus(Status status) {
         this.status = status;
     }
