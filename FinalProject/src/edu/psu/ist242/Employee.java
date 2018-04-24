@@ -2,7 +2,7 @@
 Project Final Project
 Purpose Details: Ordering kiosk???
 Course: IST 242
-Author: Charles McKee
+Author: Iraina Lambe
 Date Developed:
 Last Date Changed:
  */
@@ -10,7 +10,7 @@ Last Date Changed:
  * <h1>Employee Class</h1>
  * This deals with all the basic information from the Employee.
  * <p>
- *     @author Charles McKee
+ *     @author Iraina Lambe
  * </p>
  */
 package edu.psu.ist242;

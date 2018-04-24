@@ -2,7 +2,7 @@
 Project Final Project
 Purpose Details: Ordering kiosk???
 Course: IST 242
-Author: Charles McKee
+Author: Luke Jackson 
 Date Developed:
 Last Date Changed:
  */
@@ -10,7 +10,7 @@ Last Date Changed:
  * <h1>Item Class</h1>
  * This is the parent class of menu.
  * <p>
- *     @author Charles McKee
+ *     @author Luke Jackson
  * </p>
  */
 package edu.psu.ist242;
